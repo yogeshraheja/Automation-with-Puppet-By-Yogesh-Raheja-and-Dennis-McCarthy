@@ -1,0 +1,14 @@
+---
+role:
+  - role_base
+
+mcollective::service: stopped
+#mcollective::client: true
+#mcollective::server: false
+mcollective::site_policies:
+  - action: "allow"
+    callers: "choria=puppetmastermco.mcollective"
+    actions: "*"
+    facts: "*"
+    classes: "*"
+

@@ -1,0 +1,18 @@
+# This server is managed by Puppet.
+# Any changes will be overwritten
+# when puppet runs again.
+
+Server information:
+
+Operating system = <%= @operatingsystem %>
+Operating system Release = <%= @operatingsystemrelease %>
+Architecture = <%= @architecture %>
+
+FQDN:         <%= @fqdn %> (<%= @ipaddress %>)
+Processor:    <%= @processor0 %>
+Kernel:       <%= @kernel %>
+Memory Free:  <%= @memoryfree %>
+
+This file is a template created by puppet
+under the template_test class.
+

@@ -1,0 +1,4 @@
+---
+hierademo::message:
+ - ' this message has been put here by hiera!'
+

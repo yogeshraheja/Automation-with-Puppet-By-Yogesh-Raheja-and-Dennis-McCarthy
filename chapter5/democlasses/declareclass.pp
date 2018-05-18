@@ -1,0 +1,2 @@
+include democlass
+include democlassone

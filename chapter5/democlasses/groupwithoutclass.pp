@@ -1,0 +1,3 @@
+group { "groupwithoutclass":
+	ensure => "present",
+}
